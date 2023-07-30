@@ -24,7 +24,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #Display the table on the page.
 streamlit.dataframe(fruits_to_show)
 
-except URLError as e:
+#except URLError as e:
   streamlit.error()
 
 def get_fruityvice_data(this_fruit_choice):
